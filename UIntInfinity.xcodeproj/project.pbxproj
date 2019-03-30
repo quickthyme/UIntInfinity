@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC32B801224FECB600767E4A /* UIntInfinity+Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32B800224FECB600767E4A /* UIntInfinity+Addition.swift */; };
+		DC32B802224FECB600767E4A /* UIntInfinity+Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32B800224FECB600767E4A /* UIntInfinity+Addition.swift */; };
+		DC32B807224FEEE800767E4A /* UIntInfinity+Subtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32B806224FEDAC00767E4A /* UIntInfinity+Subtraction.swift */; };
+		DC32B808224FEEE800767E4A /* UIntInfinity+Subtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32B806224FEDAC00767E4A /* UIntInfinity+Subtraction.swift */; };
+		DC730CB0224F2BAF00D14936 /* UIntInfinity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC730CAF224F2BAF00D14936 /* UIntInfinity.swift */; };
+		DC730CB1224F2BAF00D14936 /* UIntInfinity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC730CAF224F2BAF00D14936 /* UIntInfinity.swift */; };
+		DC730CB3224F53C400D14936 /* UIntInfinityAdditionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC730CB2224F539C00D14936 /* UIntInfinityAdditionTests.swift */; };
+		DC730CB4224F53C500D14936 /* UIntInfinityAdditionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC730CB2224F539C00D14936 /* UIntInfinityAdditionTests.swift */; };
+		DC730CB6224F549F00D14936 /* UIntInfinitySubtractionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC730CB5224F53F400D14936 /* UIntInfinitySubtractionTests.swift */; };
+		DC730CB7224F549F00D14936 /* UIntInfinitySubtractionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC730CB5224F53F400D14936 /* UIntInfinitySubtractionTests.swift */; };
+		DCC8EE6F224ECF4D00F35E40 /* libUIntInfinity-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC8EE40224ECDEB00F35E40 /* libUIntInfinity-iOS.a */; };
+		DCC8EE7E224ECF6400F35E40 /* libUIntInfinity-macOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC8EE4E224ECE8300F35E40 /* libUIntInfinity-macOS.a */; };
+		DCC8EE90224ED01300F35E40 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8EE8C224ED01300F35E40 /* XCTestManifests.swift */; };
+		DCC8EE91224ED01300F35E40 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8EE8C224ED01300F35E40 /* XCTestManifests.swift */; };
+		DCC8EE92224ED01300F35E40 /* UIntInfinityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8EE8D224ED01300F35E40 /* UIntInfinityTests.swift */; };
+		DCC8EE93224ED01300F35E40 /* UIntInfinityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8EE8D224ED01300F35E40 /* UIntInfinityTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCC8EE70224ECF4D00F35E40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC8EE38224ECDEB00F35E40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC8EE3F224ECDEB00F35E40;
+			remoteInfo = "UIntInfinity-iOS";
+		};
+		DCC8EE7F224ECF6400F35E40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC8EE38224ECDEB00F35E40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC8EE4D224ECE8300F35E40;
+			remoteInfo = "UIntInfinity-macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DCC8EE3E224ECDEB00F35E40 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DC32B800224FECB600767E4A /* UIntInfinity+Addition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIntInfinity+Addition.swift"; sourceTree = "<group>"; };
+		DC32B806224FEDAC00767E4A /* UIntInfinity+Subtraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIntInfinity+Subtraction.swift"; sourceTree = "<group>"; };
+		DC730CAF224F2BAF00D14936 /* UIntInfinity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIntInfinity.swift; sourceTree = "<group>"; };
+		DC730CB2224F539C00D14936 /* UIntInfinityAdditionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIntInfinityAdditionTests.swift; sourceTree = "<group>"; };
+		DC730CB5224F53F400D14936 /* UIntInfinitySubtractionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIntInfinitySubtractionTests.swift; sourceTree = "<group>"; };
+		DCC8EE40224ECDEB00F35E40 /* libUIntInfinity-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUIntInfinity-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC8EE4E224ECE8300F35E40 /* libUIntInfinity-macOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUIntInfinity-macOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC8EE6A224ECF4D00F35E40 /* UIntInfinity-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIntInfinity-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC8EE79224ECF6400F35E40 /* UIntInfinity-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIntInfinity-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC8EE7D224ECF6400F35E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC8EE8A224ED01300F35E40 /* LinuxMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
+		DCC8EE8C224ED01300F35E40 /* XCTestManifests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		DCC8EE8D224ED01300F35E40 /* UIntInfinityTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIntInfinityTests.swift; sourceTree = "<group>"; };
+		DCC8EE94224ED02B00F35E40 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DCC8EE95224ED02C00F35E40 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCC8EE3D224ECDEB00F35E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC8EE4C224ECE8300F35E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC8EE67224ECF4D00F35E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC8EE6F224ECF4D00F35E40 /* libUIntInfinity-iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC8EE76224ECF6400F35E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC8EE7E224ECF6400F35E40 /* libUIntInfinity-macOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCC8EE37224ECDEB00F35E40 = {
+			isa = PBXGroup;
+			children = (
+				DCC8EE94224ED02B00F35E40 /* README.md */,
+				DCC8EE95224ED02C00F35E40 /* Package.swift */,
+				DCC8EE84224ED00900F35E40 /* Sources */,
+				DCC8EE89224ED01300F35E40 /* Tests */,
+				DCC8EE41224ECDEB00F35E40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCC8EE41224ECDEB00F35E40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCC8EE40224ECDEB00F35E40 /* libUIntInfinity-iOS.a */,
+				DCC8EE4E224ECE8300F35E40 /* libUIntInfinity-macOS.a */,
+				DCC8EE6A224ECF4D00F35E40 /* UIntInfinity-iOSTests.xctest */,
+				DCC8EE79224ECF6400F35E40 /* UIntInfinity-macOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCC8EE84224ED00900F35E40 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DCC8EE85224ED00900F35E40 /* UIntInfinity */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		DCC8EE85224ED00900F35E40 /* UIntInfinity */ = {
+			isa = PBXGroup;
+			children = (
+				DC730CAF224F2BAF00D14936 /* UIntInfinity.swift */,
+				DC32B800224FECB600767E4A /* UIntInfinity+Addition.swift */,
+				DC32B806224FEDAC00767E4A /* UIntInfinity+Subtraction.swift */,
+			);
+			path = UIntInfinity;
+			sourceTree = "<group>";
+		};
+		DCC8EE89224ED01300F35E40 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DCC8EE8A224ED01300F35E40 /* LinuxMain.swift */,
+				DCC8EE8B224ED01300F35E40 /* UIntInfinityTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		DCC8EE8B224ED01300F35E40 /* UIntInfinityTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCC8EE7D224ECF6400F35E40 /* Info.plist */,
+				DCC8EE8C224ED01300F35E40 /* XCTestManifests.swift */,
+				DCC8EE8D224ED01300F35E40 /* UIntInfinityTests.swift */,
+				DC730CB2224F539C00D14936 /* UIntInfinityAdditionTests.swift */,
+				DC730CB5224F53F400D14936 /* UIntInfinitySubtractionTests.swift */,
+			);
+			path = UIntInfinityTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DCC8EE4A224ECE8300F35E40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DCC8EE3F224ECDEB00F35E40 /* UIntInfinity-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC8EE47224ECDEC00F35E40 /* Build configuration list for PBXNativeTarget "UIntInfinity-iOS" */;
+			buildPhases = (
+				DCC8EE3C224ECDEB00F35E40 /* Sources */,
+				DCC8EE3D224ECDEB00F35E40 /* Frameworks */,
+				DCC8EE3E224ECDEB00F35E40 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIntInfinity-iOS";
+			productName = "UIntInfinity-iOS";
+			productReference = DCC8EE40224ECDEB00F35E40 /* libUIntInfinity-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DCC8EE4D224ECE8300F35E40 /* UIntInfinity-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC8EE54224ECE8300F35E40 /* Build configuration list for PBXNativeTarget "UIntInfinity-macOS" */;
+			buildPhases = (
+				DCC8EE4A224ECE8300F35E40 /* Headers */,
+				DCC8EE4B224ECE8300F35E40 /* Sources */,
+				DCC8EE4C224ECE8300F35E40 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIntInfinity-macOS";
+			productName = "UIntInfinity-macOS";
+			productReference = DCC8EE4E224ECE8300F35E40 /* libUIntInfinity-macOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DCC8EE69224ECF4D00F35E40 /* UIntInfinity-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC8EE72224ECF4D00F35E40 /* Build configuration list for PBXNativeTarget "UIntInfinity-iOSTests" */;
+			buildPhases = (
+				DCC8EE66224ECF4D00F35E40 /* Sources */,
+				DCC8EE67224ECF4D00F35E40 /* Frameworks */,
+				DCC8EE68224ECF4D00F35E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC8EE71224ECF4D00F35E40 /* PBXTargetDependency */,
+			);
+			name = "UIntInfinity-iOSTests";
+			productName = "UIntInfinity-iOSTests";
+			productReference = DCC8EE6A224ECF4D00F35E40 /* UIntInfinity-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCC8EE78224ECF6400F35E40 /* UIntInfinity-macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC8EE81224ECF6400F35E40 /* Build configuration list for PBXNativeTarget "UIntInfinity-macOSTests" */;
+			buildPhases = (
+				DCC8EE75224ECF6400F35E40 /* Sources */,
+				DCC8EE76224ECF6400F35E40 /* Frameworks */,
+				DCC8EE77224ECF6400F35E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC8EE80224ECF6400F35E40 /* PBXTargetDependency */,
+			);
+			name = "UIntInfinity-macOSTests";
+			productName = "UIntInfinity-macOSTests";
+			productReference = DCC8EE79224ECF6400F35E40 /* UIntInfinity-macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCC8EE38224ECDEB00F35E40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Quickthyme;
+				TargetAttributes = {
+					DCC8EE3F224ECDEB00F35E40 = {
+						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
+					};
+					DCC8EE4D224ECE8300F35E40 = {
+						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
+					};
+					DCC8EE69224ECF4D00F35E40 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					DCC8EE78224ECF6400F35E40 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = DCC8EE3B224ECDEB00F35E40 /* Build configuration list for PBXProject "UIntInfinity" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCC8EE37224ECDEB00F35E40;
+			productRefGroup = DCC8EE41224ECDEB00F35E40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCC8EE4D224ECE8300F35E40 /* UIntInfinity-macOS */,
+				DCC8EE3F224ECDEB00F35E40 /* UIntInfinity-iOS */,
+				DCC8EE78224ECF6400F35E40 /* UIntInfinity-macOSTests */,
+				DCC8EE69224ECF4D00F35E40 /* UIntInfinity-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCC8EE68224ECF4D00F35E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC8EE77224ECF6400F35E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCC8EE3C224ECDEB00F35E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC32B808224FEEE800767E4A /* UIntInfinity+Subtraction.swift in Sources */,
+				DC730CB1224F2BAF00D14936 /* UIntInfinity.swift in Sources */,
+				DC32B802224FECB600767E4A /* UIntInfinity+Addition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC8EE4B224ECE8300F35E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC32B807224FEEE800767E4A /* UIntInfinity+Subtraction.swift in Sources */,
+				DC730CB0224F2BAF00D14936 /* UIntInfinity.swift in Sources */,
+				DC32B801224FECB600767E4A /* UIntInfinity+Addition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC8EE66224ECF4D00F35E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC8EE92224ED01300F35E40 /* UIntInfinityTests.swift in Sources */,
+				DC730CB4224F53C500D14936 /* UIntInfinityAdditionTests.swift in Sources */,
+				DCC8EE90224ED01300F35E40 /* XCTestManifests.swift in Sources */,
+				DC730CB7224F549F00D14936 /* UIntInfinitySubtractionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC8EE75224ECF6400F35E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC8EE93224ED01300F35E40 /* UIntInfinityTests.swift in Sources */,
+				DC730CB3224F53C400D14936 /* UIntInfinityAdditionTests.swift in Sources */,
+				DCC8EE91224ED01300F35E40 /* XCTestManifests.swift in Sources */,
+				DC730CB6224F549F00D14936 /* UIntInfinitySubtractionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCC8EE71224ECF4D00F35E40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCC8EE3F224ECDEB00F35E40 /* UIntInfinity-iOS */;
+			targetProxy = DCC8EE70224ECF4D00F35E40 /* PBXContainerItemProxy */;
+		};
+		DCC8EE80224ECF6400F35E40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCC8EE4D224ECE8300F35E40 /* UIntInfinity-macOS */;
+			targetProxy = DCC8EE7F224ECF6400F35E40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DCC8EE45224ECDEC00F35E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DCC8EE46224ECDEC00F35E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCC8EE48224ECDEC00F35E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_MODULE_NAME = UIntInfinity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCC8EE49224ECDEC00F35E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_MODULE_NAME = UIntInfinity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCC8EE55224ECE8300F35E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_MODULE_NAME = UIntInfinity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DCC8EE56224ECE8300F35E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_MODULE_NAME = UIntInfinity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DCC8EE73224ECF4D00F35E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
+				INFOPLIST_FILE = Tests/UIntInfinityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.quickthyme.UIntInfinity-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCC8EE74224ECF4D00F35E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
+				INFOPLIST_FILE = Tests/UIntInfinityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.quickthyme.UIntInfinity-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCC8EE82224ECF6400F35E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = NO;
+				INFOPLIST_FILE = Tests/UIntInfinityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.quickthyme.UIntInfinity-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCC8EE83224ECF6400F35E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = NO;
+				INFOPLIST_FILE = Tests/UIntInfinityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.quickthyme.UIntInfinity-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCC8EE3B224ECDEB00F35E40 /* Build configuration list for PBXProject "UIntInfinity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC8EE45224ECDEC00F35E40 /* Debug */,
+				DCC8EE46224ECDEC00F35E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC8EE47224ECDEC00F35E40 /* Build configuration list for PBXNativeTarget "UIntInfinity-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC8EE48224ECDEC00F35E40 /* Debug */,
+				DCC8EE49224ECDEC00F35E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC8EE54224ECE8300F35E40 /* Build configuration list for PBXNativeTarget "UIntInfinity-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC8EE55224ECE8300F35E40 /* Debug */,
+				DCC8EE56224ECE8300F35E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC8EE72224ECF4D00F35E40 /* Build configuration list for PBXNativeTarget "UIntInfinity-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC8EE73224ECF4D00F35E40 /* Debug */,
+				DCC8EE74224ECF4D00F35E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC8EE81224ECF6400F35E40 /* Build configuration list for PBXNativeTarget "UIntInfinity-macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC8EE82224ECF6400F35E40 /* Debug */,
+				DCC8EE83224ECF6400F35E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCC8EE38224ECDEB00F35E40 /* Project object */;
+}
