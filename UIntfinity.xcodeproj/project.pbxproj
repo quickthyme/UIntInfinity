@@ -23,6 +23,12 @@
 		DCC8EE91224ED01300F35E40 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8EE8C224ED01300F35E40 /* XCTestManifests.swift */; };
 		DCC8EE92224ED01300F35E40 /* UIntfinityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8EE8D224ED01300F35E40 /* UIntfinityTests.swift */; };
 		DCC8EE93224ED01300F35E40 /* UIntfinityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8EE8D224ED01300F35E40 /* UIntfinityTests.swift */; };
+		DCDA887C22508A0100F165BF /* Character+Digit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDA887B22508A0100F165BF /* Character+Digit.swift */; };
+		DCDA887D22508A0100F165BF /* Character+Digit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDA887B22508A0100F165BF /* Character+Digit.swift */; };
+		DCDA887F22508A5900F165BF /* String+Zeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDA887E22508A5900F165BF /* String+Zeroes.swift */; };
+		DCDA888022508A5900F165BF /* String+Zeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDA887E22508A5900F165BF /* String+Zeroes.swift */; };
+		DCDA888222508B1300F165BF /* UIntfinity+PadMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDA888122508B1300F165BF /* UIntfinity+PadMax.swift */; };
+		DCDA888322508B1300F165BF /* UIntfinity+PadMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDA888122508B1300F165BF /* UIntfinity+PadMax.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +76,9 @@
 		DCC8EE8D224ED01300F35E40 /* UIntfinityTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIntfinityTests.swift; sourceTree = "<group>"; };
 		DCC8EE94224ED02B00F35E40 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DCC8EE95224ED02C00F35E40 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		DCDA887B22508A0100F165BF /* Character+Digit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Character+Digit.swift"; sourceTree = "<group>"; };
+		DCDA887E22508A5900F165BF /* String+Zeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Zeroes.swift"; sourceTree = "<group>"; };
+		DCDA888122508B1300F165BF /* UIntfinity+PadMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIntfinity+PadMax.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +151,9 @@
 				DC730CAF224F2BAF00D14936 /* UIntfinity.swift */,
 				DC32B800224FECB600767E4A /* UIntfinity+Addition.swift */,
 				DC32B806224FEDAC00767E4A /* UIntfinity+Subtraction.swift */,
+				DCDA888122508B1300F165BF /* UIntfinity+PadMax.swift */,
+				DCDA887B22508A0100F165BF /* Character+Digit.swift */,
+				DCDA887E22508A5900F165BF /* String+Zeroes.swift */,
 			);
 			path = UIntfinity;
 			sourceTree = "<group>";
@@ -319,7 +331,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCDA888322508B1300F165BF /* UIntfinity+PadMax.swift in Sources */,
+				DCDA888022508A5900F165BF /* String+Zeroes.swift in Sources */,
 				DC32B808224FEEE800767E4A /* UIntfinity+Subtraction.swift in Sources */,
+				DCDA887D22508A0100F165BF /* Character+Digit.swift in Sources */,
 				DC730CB1224F2BAF00D14936 /* UIntfinity.swift in Sources */,
 				DC32B802224FECB600767E4A /* UIntfinity+Addition.swift in Sources */,
 			);
@@ -329,7 +344,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCDA888222508B1300F165BF /* UIntfinity+PadMax.swift in Sources */,
+				DCDA887F22508A5900F165BF /* String+Zeroes.swift in Sources */,
 				DC32B807224FEEE800767E4A /* UIntfinity+Subtraction.swift in Sources */,
+				DCDA887C22508A0100F165BF /* Character+Digit.swift in Sources */,
 				DC730CB0224F2BAF00D14936 /* UIntfinity.swift in Sources */,
 				DC32B801224FECB600767E4A /* UIntfinity+Addition.swift in Sources */,
 			);

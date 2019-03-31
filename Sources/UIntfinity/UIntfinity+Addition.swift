@@ -23,8 +23,8 @@ internal extension UIntfinity {
                     _ charR: Character,
                     _ overflow: Bool) -> (Character, Bool) {
         guard
-            let digitL = digitOf(charL),
-            let digitR = digitOf(charR)
+            let digitL = charL.digit,
+            let digitR = charR.digit
             else { return (Character(""), true) }
 
         let v: UInt8 = digitL + digitR + (overflow ? 1 : 0)

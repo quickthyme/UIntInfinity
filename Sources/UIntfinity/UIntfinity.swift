@@ -19,46 +19,18 @@ public struct UIntfinity:
     }
 
     public var description: String {
-        return String(value.reversed())
+        return String(value.removeZeroes().reversed())
     }
 
     public var debugDescription: String {
-        return String(value.reversed())
+        return String(value.removeZeroes().reversed())
     }
 
     public static func ==(lhs: UIntfinity, rhs: UIntfinity) -> Bool {
-        return lhs.value == rhs.value
+        return lhs.value.removeZeroes() == rhs.value.removeZeroes()
     }
 
     public static func ==(lhs: UIntfinity, rhs: String) -> Bool {
-        return lhs.value == String(rhs.reversed())
-    }
-}
-
-
-internal extension UIntfinity {
-    static func digitOf(_ c: Character) -> UInt8? {
-        guard let u: UInt8 = UInt8(String(c)) else { return nil }
-        return (u < 10) ? u : nil
-    }
-
-    static func padMax(_ l: String, _ r: String) -> (String, String) {
-        let lc = l.count; let rc = r.count
-        guard (lc != rc) else { return (l,r) }
-        let maxc = max(lc, rc)
-        let padc = maxc - min(lc, rc)
-        let newL: String = (lc < maxc) ? addZeros(l, padc) : l
-        let newR: String = (rc < maxc) ? addZeros(r, padc) : r
-        return (newL, newR)
-    }
-
-    static func addZeros(_ s: String, _ count: Int) -> String {
-        return s + String(repeating: "0", count: count)
-    }
-
-    static func removeZeros(_ s: String) -> String {
-        var rs: String = s
-        while (rs.last == "0") { _ = rs.removeLast() }
-        return (rs.isEmpty) ? "0" : rs
+        return lhs.value.removeZeroes() == String(rhs.removeZeroes().reversed())
     }
 }

@@ -9,7 +9,7 @@ public extension UIntfinity {
                 let (v, b) = subtract(n.0, n.1, r.1)
                 return (r.0 + String(v), b)
             }))
-        return UIntfinity(raw: (solved.1) ? "0" : (removeZeros(solved.0)))
+        return UIntfinity(raw: (solved.1) ? "0" : solved.0)
     }
 
     static func -= (lhs: inout UIntfinity, rhs: UIntfinity) {
@@ -23,8 +23,8 @@ internal extension UIntfinity {
                          _ charR: Character,
                          _ borrow: Bool) -> (Character, Bool) {
         guard
-            var digitL = digitOf(charL),
-            let digitR = digitOf(charR)
+            var digitL = charL.digit,
+            let digitR = charR.digit
             else { return (Character(""), true) }
 
         var didBorrow: Bool = false
