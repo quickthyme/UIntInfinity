@@ -2,8 +2,7 @@
 internal extension Character {
 
     var digit: UInt8? {
-        guard let u: UInt8 = charDigits[self] else { return nil }
-        return (u < 10) ? u : nil
+        return charDigits[self]
     }
 }
 

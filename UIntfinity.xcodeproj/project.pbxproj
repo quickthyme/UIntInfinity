@@ -148,12 +148,12 @@
 		DCC8EE85224ED00900F35E40 /* UIntfinity */ = {
 			isa = PBXGroup;
 			children = (
-				DC730CAF224F2BAF00D14936 /* UIntfinity.swift */,
-				DC32B800224FECB600767E4A /* UIntfinity+Addition.swift */,
-				DC32B806224FEDAC00767E4A /* UIntfinity+Subtraction.swift */,
-				DCDA888122508B1300F165BF /* UIntfinity+PadMax.swift */,
 				DCDA887B22508A0100F165BF /* Character+Digit.swift */,
 				DCDA887E22508A5900F165BF /* String+Zeroes.swift */,
+				DC730CAF224F2BAF00D14936 /* UIntfinity.swift */,
+				DC32B800224FECB600767E4A /* UIntfinity+Addition.swift */,
+				DCDA888122508B1300F165BF /* UIntfinity+PadMax.swift */,
+				DC32B806224FEDAC00767E4A /* UIntfinity+Subtraction.swift */,
 			);
 			path = UIntfinity;
 			sourceTree = "<group>";

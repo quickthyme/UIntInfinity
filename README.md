@@ -11,14 +11,14 @@ let result = a + b
 
 ```
 
-I wrote this so I could add and subtract numbers larger than 64-bit on a Raspberry Pi.
-It uses strings to store values so theoretically can be as wide as it needs to be.
+This came about because I wanted to add and subtract numbers larger than 64-bit
+using Swift on a Raspberry Pi. It uses strings to store values so theoretically can be
+as wide as it needs to be.
 
-Raw performance is not a concern; it was written to be simple rather than efficient.
-If you need that, then there alternative libraries floating around on github that can
-also do multiplication and division, something this module has no current plans of
-supporting.
+Raw performance is not a primary concern; it was written to be simple rather than efficient.
+If you need that, then there are alternative libraries floating around on github that can also
+do multiplication and division, something this module has no current plans of supporting
+at this time.
 
-This module is intended for entertainment and education purposes only. But if you find
-it useful then by all means enjoy it however ye will. It supports swiftPM, and follows
-semantic versioning.
+This module is mainly intended for entertainment and education purposes. But if you find
+it useful, then by all means enjoy it. It supports swiftPM.

@@ -51,6 +51,13 @@
             BlueprintName = "UIntfinity-macOSTests"
             ReferencedContainer = "container:UIntfinity.xcodeproj">
          </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DCC8EE4D224ECE8300F35E40"
+            BuildableName = "libUIntfinity-macOS.a"
+            BlueprintName = "UIntfinity-macOS"
+            ReferencedContainer = "container:UIntfinity.xcodeproj">
+         </BuildableReference>
       </CodeCoverageTargets>
       <Testables>
          <TestableReference
