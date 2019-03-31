@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DCC8EE3F224ECDEB00F35E40"
-               BuildableName = "libUIntInfinity-iOS.a"
-               BlueprintName = "UIntInfinity-iOS"
-               ReferencedContainer = "container:UIntInfinity.xcodeproj">
+               BlueprintIdentifier = "DCC8EE4D224ECE8300F35E40"
+               BuildableName = "libUIntfinity-macOS.a"
+               BlueprintName = "UIntfinity-macOS"
+               ReferencedContainer = "container:UIntfinity.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DCC8EE69224ECF4D00F35E40"
-               BuildableName = "UIntInfinity-iOSTests.xctest"
-               BlueprintName = "UIntInfinity-iOSTests"
-               ReferencedContainer = "container:UIntInfinity.xcodeproj">
+               BlueprintIdentifier = "DCC8EE78224ECF6400F35E40"
+               BuildableName = "UIntfinity-macOSTests.xctest"
+               BlueprintName = "UIntfinity-macOSTests"
+               ReferencedContainer = "container:UIntfinity.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,10 +46,10 @@
       <CodeCoverageTargets>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DCC8EE69224ECF4D00F35E40"
-            BuildableName = "UIntInfinity-iOSTests.xctest"
-            BlueprintName = "UIntInfinity-iOSTests"
-            ReferencedContainer = "container:UIntInfinity.xcodeproj">
+            BlueprintIdentifier = "DCC8EE78224ECF6400F35E40"
+            BuildableName = "UIntfinity-macOSTests.xctest"
+            BlueprintName = "UIntfinity-macOSTests"
+            ReferencedContainer = "container:UIntfinity.xcodeproj">
          </BuildableReference>
       </CodeCoverageTargets>
       <Testables>
@@ -57,20 +57,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DCC8EE69224ECF4D00F35E40"
-               BuildableName = "UIntInfinity-iOSTests.xctest"
-               BlueprintName = "UIntInfinity-iOSTests"
-               ReferencedContainer = "container:UIntInfinity.xcodeproj">
+               BlueprintIdentifier = "DCC8EE78224ECF6400F35E40"
+               BuildableName = "UIntfinity-macOSTests.xctest"
+               BlueprintName = "UIntfinity-macOSTests"
+               ReferencedContainer = "container:UIntfinity.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DCC8EE3F224ECDEB00F35E40"
-            BuildableName = "libUIntInfinity-iOS.a"
-            BlueprintName = "UIntInfinity-iOS"
-            ReferencedContainer = "container:UIntInfinity.xcodeproj">
+            BlueprintIdentifier = "DCC8EE4D224ECE8300F35E40"
+            BuildableName = "libUIntfinity-macOS.a"
+            BlueprintName = "UIntfinity-macOS"
+            ReferencedContainer = "container:UIntfinity.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -89,10 +89,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DCC8EE3F224ECDEB00F35E40"
-            BuildableName = "libUIntInfinity-iOS.a"
-            BlueprintName = "UIntInfinity-iOS"
-            ReferencedContainer = "container:UIntInfinity.xcodeproj">
+            BlueprintIdentifier = "DCC8EE4D224ECE8300F35E40"
+            BuildableName = "libUIntfinity-macOS.a"
+            BlueprintName = "UIntfinity-macOS"
+            ReferencedContainer = "container:UIntfinity.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -107,10 +107,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DCC8EE3F224ECDEB00F35E40"
-            BuildableName = "libUIntInfinity-iOS.a"
-            BlueprintName = "UIntInfinity-iOS"
-            ReferencedContainer = "container:UIntInfinity.xcodeproj">
+            BlueprintIdentifier = "DCC8EE4D224ECE8300F35E40"
+            BuildableName = "libUIntfinity-macOS.a"
+            BlueprintName = "UIntfinity-macOS"
+            ReferencedContainer = "container:UIntfinity.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

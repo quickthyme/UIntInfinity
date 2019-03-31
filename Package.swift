@@ -3,13 +3,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "UIntInfinity",
+    name: "UIntfinity",
     products: [
-        .library(name: "UIntInfinity", targets: ["UIntInfinity"]),
+        .library(name: "UIntfinity", targets: ["UIntfinity"]),
     ],
     dependencies: [],
     targets: [
-        .target(name: "UIntInfinity", dependencies: []),
-        .testTarget(name: "UIntInfinityTests", dependencies: ["UIntInfinity"]),
+        .target(name: "UIntfinity", dependencies: []),
+        .testTarget(name: "UIntfinityTests", dependencies: ["UIntfinity"]),
     ]
 )

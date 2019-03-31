@@ -1,7 +1,7 @@
 
-public extension UIntInfinity {
+public extension UIntfinity {
 
-    static func + (lhs: UIntInfinity, rhs: UIntInfinity) -> UIntInfinity {
+    static func + (lhs: UIntfinity, rhs: UIntfinity) -> UIntfinity {
         let (padL, padR) = padMax(lhs.value, rhs.value)
         let zipped = zip(padL, padR)
         let solved: (String, Bool) = zipped.lazy
@@ -9,15 +9,15 @@ public extension UIntInfinity {
                 let (v, o) = add(n.0, n.1, r.1)
                 return (r.0 + String(v), o)
             }))
-        return UIntInfinity(raw: (solved.1) ? (solved.0 + "1") : (solved.0))
+        return UIntfinity(raw: (solved.1) ? (solved.0 + "1") : (solved.0))
     }
 
-    static func += (lhs: inout UIntInfinity, rhs: UIntInfinity) {
+    static func += (lhs: inout UIntfinity, rhs: UIntfinity) {
         lhs = lhs + rhs
     }
 }
 
-internal extension UIntInfinity {
+internal extension UIntfinity {
 
     static func add(_ charL: Character,
                     _ charR: Character,

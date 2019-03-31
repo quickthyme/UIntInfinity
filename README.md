@@ -1,4 +1,4 @@
-# UIntInfinity ( UInf )
+# UIntfinity ( UInf )
 
 ```
 let a = UInf("1234567890987654321234567891")

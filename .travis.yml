@@ -1,4 +1,4 @@
 language: swift
 osx_image: xcode10.2
-xcode_project: UIntInfinity.xcodeproj
-xcode_scheme: UIntInfinity-macOS
+xcode_project: UIntfinity.xcodeproj
+xcode_scheme: UIntfinity-macOS

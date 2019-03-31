@@ -1,10 +1,10 @@
 #if os(Linux)
 
 import XCTest
-import UIntInfinityTests
+import UIntfinityTests
 
 var tests = [XCTestCaseEntry]()
-tests += UIntInfinityTests.allTests()
+tests += UIntfinityTests.allTests()
 XCTMain(tests)
 
 #endif

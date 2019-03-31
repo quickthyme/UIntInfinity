@@ -1,8 +1,8 @@
 
 import XCTest
-import UIntInfinity
+import UIntfinity
 
-final class UIntInfinitySubtractionTests: XCTestCase {
+final class UIntfinitySubtractionTests: XCTestCase {
     static var allTests = [
         ("test_subtracting_1_minus_1_equals_2", test_subtracting_1_minus_1_equals_0),
         ("test_subtracting_2_minus_1_equals_1", test_subtracting_2_minus_1_equals_1),

@@ -1,21 +1,21 @@
 
-public typealias UInf = UIntInfinity
+public typealias UInf = UIntfinity
 
-public struct UIntInfinity:
+public struct UIntfinity:
     Equatable,
     AdditiveArithmetic,
     CustomStringConvertible,
     CustomDebugStringConvertible
 {
     public init() { self.value = "0" }
-    public init(_ n: UIntInfinity) { self.value = n.value }
+    public init(_ n: UIntfinity) { self.value = n.value }
     public init(_ u: UInt64) { self.init( String(u) ) }
     public init(_ s: String) { self.value = String(s.reversed()) }
     internal init(raw: String) { self.value = raw }
     internal let value: String
 
-    public static var zero: UIntInfinity {
-        return UIntInfinity()
+    public static var zero: UIntfinity {
+        return UIntfinity()
     }
 
     public var description: String {
@@ -26,17 +26,17 @@ public struct UIntInfinity:
         return String(value.reversed())
     }
 
-    public static func ==(lhs: UIntInfinity, rhs: UIntInfinity) -> Bool {
+    public static func ==(lhs: UIntfinity, rhs: UIntfinity) -> Bool {
         return lhs.value == rhs.value
     }
 
-    public static func ==(lhs: UIntInfinity, rhs: String) -> Bool {
+    public static func ==(lhs: UIntfinity, rhs: String) -> Bool {
         return lhs.value == String(rhs.reversed())
     }
 }
 
 
-internal extension UIntInfinity {
+internal extension UIntfinity {
     static func digitOf(_ c: Character) -> UInt8? {
         guard let u: UInt8 = UInt8(String(c)) else { return nil }
         return (u < 10) ? u : nil
